@@ -1,4 +1,4 @@
-#include "@TEST_LIBRARY@.h"
+#include "@CREATE_TESTS_TEST_LIBRARY@.h"
 
 int main(int argc, char** args)
 {
