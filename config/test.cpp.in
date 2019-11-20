@@ -2,7 +2,10 @@
 #ifdef @CREATE_TESTS_TEST_LIBRARY@
     #include "@CREATE_TESTS_TEST_LIBRARY@.h"
 #endif
-
+/*
+ * The preprocessing condition prevents including nonexistent header file
+ * wnen TEST_LIBRARY is undefined
+*/
 int main(int argc, char** args)
 {
     return 0;
