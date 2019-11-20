@@ -1,4 +1,7 @@
-#include "@CREATE_TESTS_TEST_LIBRARY@.h"
+#cmakedefine @CREATE_TESTS_TEST_LIBRARY@
+#ifdef @CREATE_TESTS_TEST_LIBRARY@
+    #include "@CREATE_TESTS_TEST_LIBRARY@.h"
+#endif
 
 int main(int argc, char** args)
 {
